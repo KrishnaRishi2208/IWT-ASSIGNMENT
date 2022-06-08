@@ -1,0 +1,85 @@
+.mainhead{
+    padding-left: 50px;
+    margin:50px;
+    font-family: 'Courier New', Courier, monospace;
+    width:80%;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+.navbar-end{
+    text-align:right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li{
+    display:inline;
+    padding:20px;
+
+}
+a:link {
+    color: darkgray;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: grey;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: darkgray;
+    text-decoration: none; 
+  }
+  img{
+      padding-top: 10px;
+  }
+  .container{
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    width:80%;
+    margin:50px;
+    border-radius: 20px;
+    display:flex;
+    
+    
+  }
+  .sidebar{
+      float:left;
+      
+  }
+  .maincontent{
+    float:center;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: lavender;
+    border-radius: 20px;
+    overflow:auto;
+}
+.book1{
+    border-radius: 20px;
+    border: 1px solid gray;
+    float:left;
+    overflow:auto;
+}
+.consulting{
+    width:100%;
+}
+.reg1{
+  flex:1;
+}
+.reg2{
+  flex:2;
+}

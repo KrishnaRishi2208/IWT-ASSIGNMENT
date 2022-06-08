@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dentist Website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+    	function validate(){
+    		var inputText = document.getElementById("email");
+    		if ((inputText.value).match('[a-z0-9]+@[a-z]+\.[a-z]{2,3}')){
+    		}
+    		else{
+    			inputText.value="";
+    			alert("Invalid email entered")
+    		}
+    	}
+    </script>
+</head>
+<body style="background-color:beige;">
+    <div class="mainhead">
+
+        <div class="navbar">
+            <ul>
+                <li><a href="homepage.html"><img src="doc.png"></a></li>
+                <li><a href="homepage.html">DENTAL CLINIC</a></li>
+                <div class="navbar-end">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li id="register"><a href="#">Register/Log In</a></li>
+        </div>
+        <div><a href="registration.html"><marquee behavior="scroll" direction="right">Click Here to Register</marquee></a></div>
+        </ul>
+    </div>
+
+    </div>
+    <div class="container">
+        <div class="reg1">
+        </div>
+
+        <div class="reg2">
+            <h1>REGISTRATION FORM</h1>
+            <form>
+                <label for="fname">Email:</label><br>
+                <input type="text" id="email" name="email" onblur="validate()"></br>
+                <label for="fname">Password:</label><br>
+                <input type="text" id="lname" name="fname"><br><br>
+                <input type="submit" id="submit" value="Log In" style="margin-left:50px;" onclick="alert('You have Logged in successfully');" onpointerleave="window.location.href='homepage.html'" ><br>
+                
+
+
+
+
+            </form>
+        </div>
+
+    </div>
+    </div>
+
+
+</body>
+</html>
